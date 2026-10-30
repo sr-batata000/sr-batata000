@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+  <title id="t">João Miguel — Developer | Em aprendizado</title>
+  <desc id="d">Banner de perfil em tema escuro com detalhes geométricos em azul.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0c1829"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f6feb"/>
+      <stop offset="1" stop-color="#79c0ff"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1f6feb" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#1f6feb" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#30363d" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="320" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glow)"/>
+    <g fill="none" stroke-linejoin="round">
+      <polygon points="1080,160 1020,263.9 900,263.9 840,160 900,56.1 1020,56.1" stroke="#1f6feb" stroke-width="1.5" opacity="0.7" transform="translate(120 0)"/>
+      <polygon points="1044,160 1002,232.7 918,232.7 876,160 918,87.3 1002,87.3" stroke="#58a6ff" stroke-width="1.5" opacity="0.9" transform="translate(120 0)"/>
+      <polygon points="1008,160 984,201.6 936,201.6 912,160 936,118.4 984,118.4" stroke="#79c0ff" stroke-width="1" opacity="0.5" transform="translate(120 0)"/>
+      <path d="M1020 56 L1090 20 M1140 56 L1200 56 M1200 160 L1250 160 M1140 264 L1200 290 M1020 264 L960 300" stroke="#30363d" stroke-width="1.2" transform="translate(-60 0)"/>
+    </g>
+    <g fill="#58a6ff">
+      <circle cx="1080" cy="56" r="3.5"/><circle cx="1080" cy="264" r="3.5" opacity="0.6"/>
+      <circle cx="960" cy="160" r="3" opacity="0.5"/><circle cx="1200" cy="56" r="3" opacity="0.6"/>
+    </g>
+    <text x="1080" y="178" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="52" font-weight="600" fill="none" stroke="url(#accent)" stroke-width="2.2">&lt;/&gt;</text>
+    <text x="72" y="92" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="17" fill="#58a6ff" letter-spacing="1">~/sr-batata000</text>
+    <text x="70" y="168" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="76" font-weight="700" fill="#f0f6fc" letter-spacing="-1">João Miguel</text>
+    <text x="72" y="214" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="27" fill="#c9d1d9"><tspan>Developer</tspan><tspan fill="#58a6ff" dx="10">|</tspan><tspan fill="#79c0ff" dx="10">Em aprendizado</tspan></text>
+    <rect x="72" y="234" width="72" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="72" y="274" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-style="italic" fill="#8b949e">“Grandes sonhos exigem constância, não perfeição.”</text>
+    <rect x="0" y="317" width="1200" height="3" fill="url(#edge)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="14" fill="none" stroke="#30363d"/>
+</svg>

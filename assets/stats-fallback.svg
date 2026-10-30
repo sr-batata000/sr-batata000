@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 140" width="495" height="140" role="img" aria-label="Estatísticas disponíveis no perfil do GitHub">
+  <rect x="0.75" y="0.75" width="493.5" height="138.5" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="28" y="48" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="18" font-weight="600" fill="#58a6ff">Estatísticas do GitHub</text>
+  <text x="28" y="80" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14" fill="#c9d1d9">As estatísticas ao vivo estão indisponíveis no momento.</text>
+  <text x="28" y="108" font-family="ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace" font-size="13" fill="#8b949e">github.com/sr-batata000</text>
+</svg>

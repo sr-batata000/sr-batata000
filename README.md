@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./assets/header.svg" alt="João Miguel — Developer | Em aprendizado" width="100%">
+<img src="./assets/header.svg" alt="Batata — Developer | Em aprendizado" width="100%">
 
 </div>
 
